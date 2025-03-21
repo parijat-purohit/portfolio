@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="contact-icon" onClick={() => window.open("mailto:parijat2009@gmail.com", "_blank")}>
             <MailOutlineRounded style={{ fontSize: 40 }} />
           </div>
-          </div>
+        </div>
       </div>
     </div>
   );

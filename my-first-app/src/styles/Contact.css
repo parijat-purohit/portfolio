@@ -9,7 +9,7 @@
 
 .contact-container{
     display: flex;
-    width: 1200px;
+    width: 600px;
     height: 100vh;
     flex-direction: row;
 }
@@ -32,26 +32,33 @@
     justify-content: center;
   }
 
-.contact-icon{
-    cursor: pointer;
 
+@keyframes popEffect {
+    0%, 100% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1.6);
+    }
+}
+
+.contact-icon {
+    cursor: pointer;
+    animation: popEffect 1.5s infinite ease-in-out;
 }
 
 .contact-icon:hover{
+    cursor: pointer;
+    scale: 1.6;
     color: yellow;
-    transform: scale(1.6);
+    animation: None
 }
-
-.contact-map{
-    display: flex;
+.contact-articles {
+    flex: 1;
+    width: 600px;
     align-items: center;
-    flex: 2;
 }
-
 @media only screen and (max-width: 600px) {
-    .contact-map{
-        display: None;
-    }
     .contact-greet{
         font-size: 24px;
     }
