@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Contact.css';
-import MapChart from './Map';
 import MailOutlineRounded from "@mui/icons-material/MailOutlineRounded";
 
 const Contact = () => {
@@ -15,9 +14,6 @@ const Contact = () => {
             <MailOutlineRounded style={{ fontSize: 40 }} />
           </div>
           </div>
-        <div className="contact-map">
-          <MapChart />
-        </div>
       </div>
     </div>
   );
