@@ -23,9 +23,8 @@ const About = () => {
           <div className="header">
             About Me
             <div className="about-desc">
-              With an M.Sc. in Quantum Computation from the University of Lethbridge
-              and five years of backend development experience at FarmersEdge and Jonah Group, 
-              here are some of the skills I am efficient at:
+            With an M.Sc. in Computer Science and over six years of software development experience, 
+            here is a curated set of skills I excel at:
             </div>
             {smallMedia && (
               <div className="about-desc">

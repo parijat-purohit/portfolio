@@ -25,10 +25,6 @@ const Intro = () => {
             onComplete={handleComplete}
           />
         </div>
-        <div className="intro-bio">
-          With five years of Python backend development, primarily in AgTech and FinTech, 
-          I'm seeking new opportunities in full-stack development.
-        </div>
       </div>
     </div>
   );
