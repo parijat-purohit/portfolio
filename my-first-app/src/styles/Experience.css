@@ -11,7 +11,7 @@
   scroll-snap-align: center;
   display: flex;
   padding-top: 5rem;
-  height: 82vh;
+  height: auto;
   width: 1200px;
   grid-template-columns: 1fr 1fr;
 }
