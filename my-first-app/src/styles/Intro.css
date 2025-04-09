@@ -39,6 +39,9 @@
     font-size: 20px;
     color: darkgray;
 }
+.typed-text{
+    font-size: 2rem;
+}
 @keyframes slideIn {
     100% {
         opacity: 1;
@@ -53,5 +56,8 @@
     .intro-bio{
         width: 380px;
         font-size: 18px;
+    }
+    .typed-text{
+        font-size: 2rem;
     }
 }
