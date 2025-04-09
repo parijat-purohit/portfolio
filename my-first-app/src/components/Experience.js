@@ -1,4 +1,5 @@
 import React from 'react';
+import Hyperspeed from './Hyperspeed';
 import '../styles/Experience.css';
 
 const timelineData = [
@@ -44,6 +45,9 @@ const Experience = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="hyperspeed-section">
+          <Hyperspeed />
         </div>
       </div>
     </section>

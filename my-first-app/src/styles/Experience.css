@@ -16,9 +16,17 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.hyperspeed-section {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
 
 .timeline {
   display: flex;
+  flex: 1;
   flex-direction: column;
   border-left: 3px solid green;
 }

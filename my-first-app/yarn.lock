@@ -8392,6 +8392,11 @@
     "picocolors" "^1.0.0"
     "source-map-js" "^1.2.0"
 
+"postprocessing@^6.37.2":
+  "integrity" "sha512-Xm3n1Usgk2eBkufb1ssYDNGb3EXmV2wdQQIRGAWD9yppOYwsHpb8/w/+Opvnx6uEOFyt3US1dFbET5DTSyrRiA=="
+  "resolved" "https://registry.npmjs.org/postprocessing/-/postprocessing-6.37.2.tgz"
+  "version" "6.37.2"
+
 "prelude-ls@^1.2.1":
   "integrity" "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
@@ -9938,7 +9943,7 @@
   dependencies:
     "any-promise" "^1.0.0"
 
-"three@^0.167.0", "three@>=0.133":
+"three@^0.167.0", "three@>= 0.157.0 < 0.176.0", "three@>=0.133":
   "integrity" "sha512-9Y1a66fpjqF3rhq7ivKTaKtjQLZ97Hj/lZ00DmZWaKHaQFH4uzYT1znwRDWQOcgMmCcOloQzo61gDmqO8l9xmA=="
   "resolved" "https://registry.npmjs.org/three/-/three-0.167.0.tgz"
   "version" "0.167.0"
