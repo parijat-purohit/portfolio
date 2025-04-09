@@ -70,6 +70,13 @@
  * @license MIT
  */
 
+/**
+ * postprocessing v6.37.2 build Fri Mar 28 2025
+ * https://github.com/pmndrs/postprocessing
+ * Copyright 2015-2025 Raoul van Rüschen
+ * @license Zlib
+ */
+
 /** @license React v16.13.1
  * react-is.production.min.js
  *
