@@ -18,13 +18,13 @@ const timelineData = [
     date: 'Jan 2018 – May 2022',
   },
   {
-    title: 'Graduate Teaching \& Research Assistant',
+    title: 'Graduate Teaching & Research Assistant',
     organization: 'University of Lethbridge',
     date: 'Sept 2015 – Aug 2017',
     },
   {
     title: 'Undergraduate Student',
-    organization: 'Chittagong University of Engineering \& Technology',
+    organization: 'Chittagong University of Engineering & Technology',
     date: '2010 – 2014',
     },
 ];
