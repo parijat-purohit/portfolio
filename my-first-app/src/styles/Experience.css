@@ -89,11 +89,11 @@
 
   .timeline {
     height: 600px;
+    padding-top: 0rem;
   }
 
   .timeline-item {
     position: relative;
-    margin-bottom: 0rem;
     padding-block: 0rem;
   }
 
